@@ -1,2 +1,2 @@
-# dovvn.github.io
+# devsjin.github.io
 💻깃허브 블로그
