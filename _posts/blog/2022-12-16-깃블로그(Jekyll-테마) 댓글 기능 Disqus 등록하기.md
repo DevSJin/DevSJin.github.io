@@ -14,7 +14,7 @@ last_modified_at: 2022-12-16
 toc_sticky: true 
 ---
 
- 내 블로그를 구경하던 아는 동생이 왜 댓글 기능이 없냐고 물어봤다^ㅡ^. 그래서 오늘은 깃 블로그 게시물에 댓글을 남길 수 있도록 도와주는 **Disqus서비스**를 등록하는 방법을 알아보겠다.
+ 내 블로그를 구경하던 잘 아는 동생이 왜 댓글 기능이 없냐고 물어봤다^ㅡ^. 그래서 오늘은 깃 블로그 게시물에 댓글을 남길 수 있도록 도와주는 **Disqus서비스**를 등록하는 방법을 알아보겠다.
 
  Disqus는 GitHub Pages에서는 지원하지 않는 **댓글 기능을 지원해주는 서비스**라고 생각하면 되겠다. 네이버 블로그, 티스토리 등은 댓글 기능을 직접 지원하기 때문에 한국에서는 인지도가 낮은 편이지만, 나처럼 깃허브 블로그 테마(이 블로그는 지킬, jekyll)를  사용해서 <u>댓글기능을 직접 커스텀하기 힘든 사람들</u>에겐 상당히 유용할 것 같다.
 
@@ -26,7 +26,7 @@ toc_sticky: true
 
 ![image-20221216124146224](/assets/images/image-20221216124146224.png)
 
-GET STARTED 버튼을 클릭해서 서비스 신청을 시작하면, 다음과 같은 화면이 나온다.
+**GET STARTED 버튼**을 클릭해서 서비스 신청을 시작하면, 다음과 같은 화면이 나온다.
 
 ![image-20221216124348614](/assets/images/image-20221216124348614.png)
 
@@ -68,13 +68,13 @@ Disqus 설정 화면이다. Website URL 항목은 블로그의 URL을 정확히 
 
 ![image-20221216125925794](/assets/images/image-20221216125925794.png)
 
-다음과 같이 provider에 "disqus"를 기입해주고, shortname에 위에서 이야기 했던 자신만의 고유 shortname을 적어주면 된다.
+다음과 같이 **provider에 "disqus"를 기입**해주고, **shortname에 위에서 이야기 했던 자신만의 고유 shortname**을 적어주면 된다.
 
-만약 shortname이 뭔지 모르겠다면
+*만약 shortname이 뭔지 모르겠다면*
 
-1. Disqis 홈 화면에서 Admin 클릭
-2. 상단바의 Settings 클릭
-3. 왼쪽 사이드바에서 General 에 들어가서 Shortname 확인
+1. ***Disqus 홈 화면에서 Admin 클릭***
+2. ***상단바의 Settings 클릭***
+3. ***왼쪽 사이드바에서 General 에 들어가서 Shortname 확인***
 
 이렇게 하면 이제 지킬테마에서 Disqus 서비스를 사용할 준비가 완료된 것이다.
 
@@ -85,7 +85,7 @@ Disqus 설정 화면이다. Website URL 항목은 블로그의 URL을 정확히 
 ![image-20221216130455593](/assets/images/image-20221216130455593.png)
 
 Disqus 서비스 등록이 성공적으로 이뤄졌다고 해도 아직은 게시물에 댓글을 작성하는 기능은 없을 것이다. 아직 댓글이 필요한 게시물을 지정하지 않았기 때문이다. 
-여기서는 default 설정에 true 설정을 했으니 모든 포스트 글에는 기본적으로 Disqus 댓글이 모두 적용된다. 만약 특정 포스팅에 댓글 기능을 끄고 싶다면, 해당 글의 맨 위 부분에 들어가는 comments를 false로 설정하면 되겠다.
+여기서는 **default 설정에 true 설정을 했으니 모든 포스트 글에는 기본적으로 Disqus 댓글이 모두 적용**된다. 만약 특정 포스팅에 댓글 기능을 끄고 싶다면, 해당 글의 맨 위 부분에 들어가는 comments를 false로 설정하면 되겠다.
 
 
 
@@ -103,7 +103,7 @@ Disqus 댓글 기능이 잘 적용된 모습이다.
 
 ![image-20221216131123039](/assets/images/image-20221216131123039.png)
 
-다음과 같이 사이드바에 Reactions 탭이 있다. 해당 페이지에서 밑으로 쭉 내리면 
+다음과 같이 사이드바에 **Reactions 탭**이 있다. 해당 페이지에서 밑으로 쭉 내리면 
 
 ![image-20221216131151909](/assets/images/image-20221216131151909.png)
 
@@ -111,8 +111,8 @@ Disqus 댓글 기능이 잘 적용된 모습이다.
 
 
 
-마지막으로 게스트 댓글남기기 기능은 위 사진에서 Reactions 두번째 윗칸 Moderation에 들어가면
+마지막으로 게스트 댓글남기기 기능은 위 사진에서 Reactions 두번째 윗칸 **Moderation 탭**에 들어가면
 
 ![image-20221216131300603](/assets/images/image-20221216131300603.png)
 
-다음처럼 Moderation Settings를 보게된다. 여기서 Guest Commenting을 선택해주면 로그인하지 않은 게스트들도 댓글을을 남길 수 있게 된다. 
+다음처럼 Moderation Settings를 보게된다. 여기서 **Guest Commenting을 선택**해주면 로그인하지 않은 게스트들도 댓글을을 남길 수 있게 된다. 
