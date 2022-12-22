@@ -2,7 +2,7 @@
 title:  "[React] React와 Virtual DOM 동작 원리"
 permalink: /categories/react/virtualdom
 header:
-  image: ../../../assets/images/virtualdom.png
+  image: ../../assets/images/virtualdom.png
 author_profile: true
 categories:
   - 리액트
