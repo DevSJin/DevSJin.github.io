@@ -1,5 +1,5 @@
 ---
-title:  "[React] React styled-component"
+title:  "[React] React styled-components"
 permalink: /categories/react/styled-component
 author_profile: true
 categories:
