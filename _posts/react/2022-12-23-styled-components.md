@@ -149,3 +149,4 @@ const TomatoButton = styled(Button)`
 `;
 ```
 
+React에서 사용하는 다른 스타일링 방식은 다른 포스팅에서 알아보겠다.
